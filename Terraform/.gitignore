@@ -1,0 +1,16 @@
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep lock file (recommended)
+!.terraform.lock.hcl
+
+# Terraform variable files containing secrets
+*.auto.tfvars
+terraform.tfvars
